@@ -1,0 +1,38 @@
+-- DELETE
+-- Eliminar filas de una tabla.
+-- ===============================================
+
+USE EDUCA2;
+GO
+
+DELETE FROM PAGO;
+GO
+
+DELETE FROM MATRICULA;
+GO
+
+DELETE FROM EMPLEADO;
+GO
+
+DELETE FROM CURSO;
+GO
+
+DELETE FROM ALUMNO;
+GO
+
+
+SELECT * FROM ALUMNO;
+GO
+
+SELECT * FROM PAGO;
+GO
+
+DELETE FROM ALUMNO
+WHERE alu_id = 10;
+GO
+
+/*
+DELETE FROM PAGO; 
+
+TRUNCATE TABLE PAGO;
+*/
